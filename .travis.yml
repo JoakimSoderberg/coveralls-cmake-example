@@ -1,0 +1,6 @@
+language: c
+install:
+  - sudo apt-get update -qq
+  - apt-get install -y -qq gcov curl
+script:
+  - mkdir build && cd build && cmake -DCOVERALLS=ON -CMAKE_BUILD_TYPE=Debug .. && cmake --build . && cmake --build . --target coveralls
