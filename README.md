@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/JoakimSoderberg/coveralls-cmake-example.svg?branch=master)](https://travis-ci.org/JoakimSoderberg/coveralls-cmake-example)
+[![Coverage Status](https://img.shields.io/coveralls/JoakimSoderberg/coveralls-cmake-example.svg)](https://coveralls.io/r/JoakimSoderberg/coveralls-cmake-example?branch=master)
+
 Coveralls CMake example project
 ===============================
 
